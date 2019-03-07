@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Test</title>
+        <style>
+            p, h1 { color: green; }
+            #header {width:800px; margin:0; auto; background:red;}
+            #section {width:800px; margin:0 auto; overflow: hidden;}
+            #content {width:600px; float: right; background: blue;}
+            .section {background: pink;}
+            p { color: skyblue; }
+            #apple { font-size:12px; }
+            p.ptag {font-size:25px;}
+            /* #two {background: red;} <- id */
+            p {font-size : 100px;}
+
+        </style>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>CSS Test</h1>
+        </div>
+        <hr>
+        <ul>
+            <li class="section" id="apple"> 1</li><li>2</li><li class="section">3</li><li>4</li>
+        </ul>
+        <div id="section">
+            <p class="ptag">마크업언어가 웹사이트의 몸체를 담당한다면
+            CSS는 옷과 악세사리 같은 꾸미는 역할을 담당한다고 볼 수 있다.</p>
+        </div>
+        <div id="content">
+            <p>즉, HTML 구조는 그대로 두고 CSS파일만 변경해도 전혀
+            다른 웹사이트처럼 꾸밀 수 있다.</p>
+        </div>
+    </body>
+</html>

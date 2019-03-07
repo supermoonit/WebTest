@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Input Form</title>
+    </head>
+    <body>
+        <h1>Input Form</h1>
+        <hr>
+        <div class="input-form">
+            <form method="post">
+                <label for="name">이름 : </label>
+                <input type="text" name="name"><br>
+
+                <label for="email">이메일 : </label>
+                <input type="email" name="email"><br>
+
+                <label for="url">웹사이트 : </label>
+                <input type="url" name="url"><br>
+
+                <label for="number">정수 : </label>
+                <input type="number" name="number" min="1" max="10" step="2"/><br>
+
+                <label for="range">범위 : </label>
+                <input type="range" name="range"><br>
+
+                <label for="message">메세지 : </label>
+                <textarea rows="5" cols="50"  name="message"></textarea><br>
+
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+    </body>
+</html>

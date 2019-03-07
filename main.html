@@ -1,19 +1,119 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>&lt;배고파&gt;</title>
-        <meta charset="utf-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {
+	text-align: center;
+}
+.header {
+	padding: 50px;
+	text-align: center;
+	font-size: 50pt;
+	background: #FFB4B4;
+	font color: #FFFFFF;
+}
+ .box {
+	width: 100px;
+	height: 200px;
+	margin: 10px;
+	padding: 70px;
+	color: black;
+	display: inline;
+}
+.board{
+	margin: 50px;
+}
+ .footer {
+	height: 50px;
+}
+</style>
+</head>
 
-    </head>
-    <body>
+ <body>
+	<div class="header">
+		<a class="logo" href="commu.html" style="color: #FFFFFF">지금까지이런페이지는없었다</a>
+	</div>
 
-        <h1>LEE SU JIN HOME</h1>
-        <hr>
-        <ul>
-            <li><a href="IOT_Sensor.html" target="_blank" title="SENSOR">IOT_Sensor</a>Python</li>
-            <li><a href="Python.html" target="_blank" title="PYTHON">HTML</a>IOT SENSOR</li>
-            <li><a href="IOT_NETWORK.html" target="_blank" title="NETWORK">HTML</a>IOT NETWORK</li>
-        </ul>
-        <hr>
-    </body>
+	<nav class="navbar">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li><a href="commu.html">
+					<span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="notice.jsp">공지</a></li>
+				<li class="active"><a href="main.html">자유게시판</a></li>
+				<li><a href="img.jsp">사진</a></li>
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown">모임 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="s.jsp">소형견</a></li>
+						<li><a href="m.jsp">중형견</a></li>
+						<li><a href="l.jsp">대형견</a></li>
+					</ul>
+				<li><a href="lost.jsp">유기견</a></li>
+				<li><a href="up.jsp">등업</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="join.jsp"><span
+						class="glyphicon glyphicon-user"></span></a></li>
+			</ul>
+		</div>
+	</nav>
+
+ 	<p></p>
+
+ 	<div class="board" style="text-align: left">
+		<h2 style="text-align: center;">자유게시판</h2>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>번호</th>
+					<th>제목</th>
+					<th>작성자</th>
+					<th>날짜</th>
+					<th>조회수</th>
+				</tr>
+			</thead>
+			<tbody>
+
+ 				<tr>
+					<td>3</td>
+					<td>회원가입, 로그인 ,게시판, 권한설정, 파일업로드,댓글,답댓글 ,검색 ,인기글목록띄우기</td>
+					<td>이수진</td>
+					<td>2018.05.23</td>
+					<td>1</td>
+				</tr>
+
+ 				<tr>
+					<td>2</td>
+					<td>새글,사진,공지(=팝업내용),유기견</td>
+					<td>방미리</td>
+					<td>2018.05.23</td>
+					<td>1</td>
+				</tr>
+
+ 				<tr>
+					<td>1</td>
+					<td>HTML/CSS 설계중</td>
+					<td>이수진</td>
+					<td>2018.05.23</td>
+					<td>1</td>
+				</tr>
+
+ 		</table>
+	</div>
+	<hr/>
+	<p></p>
+	<div class="footer">
+		<div class="footer">Copyright ⓒ 이름. All rights reserved. 이메일</div>
+	</div>
+
+ </body>
 </html>
